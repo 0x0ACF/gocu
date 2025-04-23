@@ -5,7 +5,8 @@
 Gocu is [curl](https://curl.se/) reimagined, a CLI HTTP client written in Go focused on simplicity and ease of use. It only implements a small subset of curl options, adding some features such as **placeholders** for variables.
 
 ## Installation
-Gocu latest binaries, for both Linux and Windows, can be downloaded from the [releases](https://github.com/0x0ACF/gocu/releases) section. It can also be installed in your GOPATH using the following command (Go version 1.24 or higher is required)
+Gocu latest binaries for both Linux and Windows can be downloaded from the [releases](https://github.com/0x0ACF/gocu/releases) section.
+Gocu can also be installed in your GOPATH using the following command (Go version 1.24 or higher is required)
 ```
 go install github.com/0x0ACF/gocu@latest
 ```
