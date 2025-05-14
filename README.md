@@ -67,5 +67,5 @@ gocu http://example.org -X PUT -d '{"key": "value"}' -H "Authorization: Bearer b
 ```
 gocu vars add baseAddress http://example.org
 gocu vars add token mytoken
-gocu {{baseAddress}} -H "Authorization: {{token}}"
+gocu {{baseAddress}} -H "Authorization: Bearer {{token}}"
 ```
